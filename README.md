@@ -1,1 +1,1 @@
-Open the Final Submission to find our final hackathon submission.
+Open the Final Submission.docx to find our final hackathon submission.
