@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Order</title>
+  <link rel="stylesheet" type="text/css" href="food.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital@1&family=Kablammo&family=Playfair+Display&family=Tilt+Prism&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container"></div>
+  <header>
+    <h1>Food Order</h1>
+    <a href="home.html"><button class="back">Go to Home</button></a>
+  </header>
+  <main>
+    <form id="order-form">
+      <h2>Menu</h2>
+      <div class="menu-item">
+        <h3>Veg-Biryani   &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  &nbsp &nbsp &nbsp     Rs.40</h3>
+        
+        <label for="vegbiryaniquantity">Quantity:</label>
+        <input type="number" id="vegbiryaniquantity" name="vegbiryani" min="0">
+      </div>
+      <div class="menu-item">
+        <h3>Macroni   &nbsp  &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Rs.30</h3>
+       
+        <label for="macroniquantity">Quantity:</label>
+        <input type="number" id="macroniquantity" name="burger" min="0">
+      </div>
+      <div class="menu-item">
+        <h3>Maggi  &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Rs.25</h3>
+   
+        <label for="maggiquantity">Quantity:</label>
+        <input type="number" id="maggiquantity" name="salad" min="0">
+      </div>
+      <button type="submit">Place Order</button>
+    </form>
+    <div id="order-summary"></div>
+    <div id="pay"></div>
+  </main>
+  <script src="food8.js"></script>
+</body>
+</html>

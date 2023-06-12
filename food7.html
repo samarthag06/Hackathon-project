@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Order</title>
+  <link rel="stylesheet" type="text/css" href="food.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital@1&family=Kablammo&family=Playfair+Display&family=Tilt+Prism&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container"></div>
+  <header>
+    <h1>Food Order</h1>
+    <a href="home.html"><button class="back">Go to Home</button></a>
+  </header>
+  <main>
+    <form id="order-form">
+      <h2>Menu</h2>
+      <div class="menu-item">
+        <h3>Veg-Roll   &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  &nbsp &nbsp &nbsp     Rs.20</h3>
+        
+        <label for="Vegroll-quantity">Quantity:</label>
+        <input type="number" id="Vegroll-quantity" name="vegroll" min="0">
+      </div>
+      <div class="menu-item">
+        <h3>Cheese-Burger  &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Rs.35</h3>
+       
+        <label for="cheeseburgerquantity">Quantity:</label>
+        <input type="number" id="cheeseburgerquantity" name="cheeseburger" min="0">
+      </div>
+      <div class="menu-item" id="w">
+        <h3>Fried-Rice  &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Rs.40</h3>
+   
+        <label for="friedricequantity">Quantity:</label>
+        <input type="number" id="friedricequantity" name="friedrice" min="0">
+      </div>
+      <button type="submit">Place Order</button>
+    </form>
+    <div id="order-summary"></div>
+    <div id="pay"></div>
+  </main>
+  <script src="food7.js"></script>
+</body>
+</html>
